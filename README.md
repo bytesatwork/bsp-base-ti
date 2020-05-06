@@ -15,4 +15,4 @@ Please have a look at the mentioned repositories for possible combinations of
 images, machines and distros.
 
 For an easier setup, have a look at
-[bsp-platform](https://github.com/bytesatwork/bsp-platform).
+[bsp-platform-ti](https://github.com/bytesatwork/bsp-platform-ti).
