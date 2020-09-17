@@ -1,15 +1,16 @@
-# bytes at work AG BSP base files
+# bytes at work AG BSP base files for AM335x based modules
 
 This repository is intended to setup a working Yocto Project environment to
-build software for bytePANEL by [bytes at work AG](https://www.bytesatwork.ch).
+build software for byteDEVKIT AM335x by [bytes at work AG](https://www.bytesatwork.io).
 
 ## Usage
 
-This repository is used with [meta-bytesatwork](https://github.com/bytesatwork/meta-bytesatwork) and [meta-bytesatwork-ti](https://github.com/bytesatwork/meta-bytesatwork-ti).
+This repository is used with [meta-bytesatwork](https://github.com/bytesatwork/meta-bytesatwork)
+and [meta-bytesatwork-ti](https://github.com/bytesatwork/meta-bytesatwork-ti).
 
 Example:
 
-	MACHINE=bytepanel DISTRO=poky-bytesatwork EULA=1 . setup-environment build
+	MACHINE=bytedevkit-am335x DISTRO=poky-bytesatwork EULA=1 . setup-environment build
 
 Please have a look at the mentioned repositories for possible combinations of
 images, machines and distros.
