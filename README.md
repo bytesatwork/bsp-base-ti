@@ -1,19 +1,14 @@
-# bytes at work AG BSP base files for AM335x and AM62x based modules
+# bytes at work AG BSP base files for AM62x based modules
 
 This repository is intended to setup a working Yocto Project environment to
-build software for byteDEVKIT AM335x and byteDEVKIT AM62x by
-[bytes at work AG](https://www.bytesatwork.io).
+build software for byteDEVKIT AM62x by [bytes at work AG](https://www.bytesatwork.io).
 
 ## Usage
 
 This repository is used with [meta-bytesatwork](https://github.com/bytesatwork/meta-bytesatwork)
 and [meta-bytesatwork-ti](https://github.com/bytesatwork/meta-bytesatwork-ti).
 
-Example for byteDEVKIT AM335x:
-
-	MACHINE=bytedevkit-am335x DISTRO=poky-bytesatwork EULA=1 . setup-environment build
-
-Example for byteDEVKIT AM62x:
+Example:
 
 	MACHINE=bytedevkit-am62x DISTRO=poky-bytesatwork EULA=1 . setup-environment build
 
